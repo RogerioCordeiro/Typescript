@@ -15,3 +15,5 @@ let inStore = true //type boolean
 let value //type ANY
 value = 10 // Aceita number
 value = 'Rogerio' // Aceita string
+
+let values: number[] = [10, 20, 40, 10]
