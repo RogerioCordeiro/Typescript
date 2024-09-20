@@ -16,4 +16,8 @@ let value //type ANY
 value = 10 // Aceita number
 value = 'Rogerio' // Aceita string
 
+// Array 
 let values: number[] = [10, 20, 40, 10]
+
+// Tupla
+let items: [string, number, boolean] = ['Apple', 3, true]
