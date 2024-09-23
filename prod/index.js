@@ -102,3 +102,7 @@ product1 = {
     }
 };
 product1.itemPurchased("You just bought a");
+function addToCart(item) {
+    console.log(`Adding "${item.title}" to cart.`);
+}
+addToCart({ id: 1, title: 'shoes' });
