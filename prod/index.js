@@ -93,3 +93,12 @@ const user2 = new Users2('Paulo', 50);
 user1.addMoney(100);
 console.log(user1);
 console.log(user2);
+let product1;
+product1 = {
+    name: 'Apple',
+    price: 2,
+    itemPurchased(message) {
+        console.log(message + ' ' + this.name);
+    }
+};
+product1.itemPurchased("You just bought a");
