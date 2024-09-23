@@ -45,3 +45,9 @@ const users = {
     lastName: 'S'
 };
 users.lastName = 'Cordeiro';
+const e1 = {
+    firstName: 'Rogerio',
+    age: 35,
+    id: 258,
+    role: "Admin"
+};
