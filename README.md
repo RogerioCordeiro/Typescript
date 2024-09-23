@@ -17,6 +17,16 @@ TypeScript é transpilado para JavaScript, permitindo que você utilize todos os
 - **JavaScript**: Lógica e interatividade do lado do cliente.
 - **TypeScript**: Superset do JavaScript que fornece tipagem estática.
 
+## Automatizar a compilação dos arquivos TS
+Como utilizar o comando *ts --watch* para compilar automaticamente o arquivo ts e as atualizações no projeto. 
+```bash
+   ts --watch 
+```
+ou
+```bash
+   ts --w 
+```
+
 ## Instalação
 
 1. Clone o repositório:
