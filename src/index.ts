@@ -45,3 +45,14 @@ function returnE(price: number) {
 
 returnE(sum(3,9))
 
+const users: {
+    firstName: string;
+    age: number;
+    lastName: string
+} = {
+    firstName: 'Rogerio',
+    age: 40,
+    lastName: 'S'
+}
+
+users.lastName = 'Cordeiro'

@@ -31,3 +31,17 @@ const user = {
     role: Role.backup
 };
 console.log(user);
+function sum(num1, num2) {
+    return num1 + num2;
+}
+// Função sem retorno ela se torna void, sem retorno.
+function returnE(price) {
+    console.log('The result is ' + price);
+}
+returnE(sum(3, 9));
+const users = {
+    firstName: 'Rogerio',
+    age: 40,
+    lastName: 'S'
+};
+users.lastName = 'Cordeiro';
