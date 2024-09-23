@@ -78,3 +78,11 @@ const animals = ['pangolin', 'aardvark', 'echidna', 'binturong'];
 const stringsAndNumbers = [1, 'one', 2, 'two', 3, 'three'];
 const allMyArrays = [sequence, animals, stringsAndNumbers];
 console.log(allMyArrays);
+class Users2 {
+    constructor(n, b) {
+        this.name = n;
+        this.balance = b;
+    }
+}
+const user1 = new Users2('Rogerio', 12);
+console.log(user1);

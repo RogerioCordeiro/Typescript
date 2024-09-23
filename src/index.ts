@@ -134,3 +134,19 @@ const stringsAndNumbers:(number | string)[] = [1, 'one', 2, 'two', 3, 'three'];
 const allMyArrays: (number | string)[][] = [sequence, animals, stringsAndNumbers];
 
 console.log(allMyArrays);
+
+
+// Seção 6 - OOP
+
+class Users2 {
+    name: string
+    balance: number
+
+    constructor(n: string, b: number) {
+        this.name = n
+        this.balance = b
+    }
+}
+
+const user1 = new Users2('Rogerio', 12)
+console.log(user1)
