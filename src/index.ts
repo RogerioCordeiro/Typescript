@@ -33,3 +33,15 @@ const user = {
     role: Role.backup
 }
 console.log(user)
+
+function sum(num1: number, num2: number) : number {
+    return num1 + num2
+}
+
+// Função sem retorno ela se torna void, sem retorno.
+function returnE(price: number) {
+    console.log('The result is ' + price)
+}
+
+returnE(sum(3,9))
+
