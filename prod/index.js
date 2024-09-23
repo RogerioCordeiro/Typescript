@@ -80,6 +80,7 @@ const allMyArrays = [sequence, animals, stringsAndNumbers];
 console.log(allMyArrays);
 class Users2 {
     constructor(n, b) {
+        this.balance = 0;
         this.name = n;
         this.balance = b;
     }

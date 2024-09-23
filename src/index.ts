@@ -140,7 +140,7 @@ console.log(allMyArrays);
 
 class Users2 {
     name: string
-    balance: number
+    private balance: number = 0
 
     constructor(n: string, b: number) {
         this.name = n
