@@ -56,3 +56,23 @@ const users: {
 }
 
 users.lastName = 'Cordeiro'
+
+type Person = {
+    firstName: string
+    age: number
+}
+
+type JobRole = {
+    id: number
+    role: string
+}
+
+type employee = Person & JobRole
+
+const e1: employee = {
+    firstName: 'Rogerio',
+    age: 35,
+    id: 258,
+    role: "Admin"
+}
+
