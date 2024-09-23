@@ -109,7 +109,7 @@ const actuallyNumber: number = NaN;
 const largestNumber: number = Number.MAX_VALUE;
 const mostBiglyNumber:number = Infinity;
 
-const members: any[] = [
+const members: number[] = [
   integer,
   float,
   hex,
