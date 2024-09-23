@@ -146,7 +146,14 @@ class Users2 {
         this.name = n
         this.balance = b
     }
+
+    addMoney(amount: number) {
+        this.balance += amount
+    }
 }
 
 const user1 = new Users2('Rogerio', 12)
+const user2 = new Users2('Paulo', 50)
+user1.addMoney(100)
 console.log(user1)
+console.log(user2)
