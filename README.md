@@ -29,6 +29,10 @@ ou
 ## Arquviso maps.
 O uso do "sourceMap": true, para criar maps para debugar o codigo direto no navegador. 
 Para acessar esse funcionalidade precisa alterar a *"sourceMap":* na seção emit no arquivo *tsconfig.json*
+
+## Não compilar comentário
+Para não complilar os comentarios no arquivo **.js** precisa ativar a opção: **"removeComments": true** no arquivo *tsconfig.json*
+
 ## Instalação
 
 1. Clone o repositório:
